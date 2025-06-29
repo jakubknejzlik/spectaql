@@ -25,8 +25,9 @@ function tmpFolder(options = {}) {
   }).name;
 }
 
-function takeDefaultExport(mojule) {
-  return mojule !== null && mojule !== void 0 && mojule.default ? mojule.default : mojule;
+function takeDefaultExport(mojule) {var _mojule, _mojule2;
+  mojule = (_mojule = mojule) !== null && _mojule !== void 0 && _mojule.default ? mojule.default : mojule;
+  return (_mojule2 = mojule) !== null && _mojule2 !== void 0 && _mojule2.default ? mojule.default : mojule;
 }
 
 async function dynamicImport(path) {var _mojule$default;
