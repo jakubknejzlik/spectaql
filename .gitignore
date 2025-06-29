@@ -1,6 +1,6 @@
 # dist/
-vendor/
-public/
+# vendor/
+# public/
 # From local packing and unzipping
 package/
 node_modules
