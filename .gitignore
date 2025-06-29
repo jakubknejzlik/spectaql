@@ -1,4 +1,4 @@
-dist/
+# dist/
 vendor/
 public/
 # From local packing and unzipping
